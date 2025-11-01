@@ -1,1 +1,4 @@
 testes/.env
+.env
+.env.example
+/random

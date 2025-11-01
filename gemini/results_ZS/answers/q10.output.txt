@@ -1,0 +1,24 @@
+       c_name       |                c_address                |          n_name           |     c_phone     | c_acctbal | revenue_lost |                                                     c_comment                                                     
+--------------------+-----------------------------------------+---------------------------+-----------------+-----------+--------------+-------------------------------------------------------------------------------------------------------------------
+ Customer#000107980 | s1VvCOIeZG03saz                         | KENYA                     | 24-953-258-5655 |   6753.32 |  681865.6214 | sly bold asymptotes. deposits integrate ironically among the even deposits. express theodolites boost furiously
+ Customer#000148015 | Y4T GZ1q2xh1V1,5iwGdxPCFrhTc,lbya       | SAUDI ARABIA              | 30-919-347-1671 |    264.75 |  670936.5460 | ct furiously ironic, ironic asymptotes. special foxes about the
+ Customer#000116701 | pxtvOifE1b,fDPsf                        | INDIA                     | 18-532-906-3327 |   8726.57 |  660616.0363 | usly regular deposits wake. always ironic theodolites agai
+ Customer#000082990 | pDX7aIeh3Iz GxQRdaUv                    | IRAQ                      | 21-596-507-3099 |    547.51 |  653951.4561 | old, regular ideas sleep furiously slyly final warhorses. carefully pe
+ Customer#000052660 | 1eSkqlr0Mses5C9EIM5SJn82ee79 hhe5lFVA e | RUSSIA                    | 32-489-296-2064 |   9705.93 |  652863.1009 | s wake furiously accounts. regular deposits boost quickly bold theodolites. fluffily e
+ Customer#000082165 | CFjHGPVnw08DhEQlPYjFkaTexM7pZ92B4Sv,h   | KENYA                     | 24-578-623-2735 |   6704.75 |  639761.5843 | oost against the furiously unusual asymptotes. furiously pend
+ Customer#000080962 | ke14wnxit,VtRF iNB5M5OrcSHg0oyKirHd     | KENYA                     | 24-712-277-5213 |   7997.81 |  616615.8554 |  about the packages. carefully regular deposits nag fluffily after the special deposits. slyly ironic accou
+ Customer#000015127 | zQUuuAQrB5scfoLJE8ZHH41iMDwQnN8         | VIETNAM                   | 31-903-342-2961 |   7061.58 |  613505.8741 |  accounts are blithely final requests. carefully p
+ Customer#000089890 | JBFRfYjqJsPKH,vKWX,gWfCqaJt2UiwZ8R0E    | GERMANY                   | 17-686-554-9322 |   3006.54 |  607668.4280 | re furiously even pinto beans. ironic courts boost slyly according to t
+ Customer#000036985 | gWKSR2kLaF8EplJEfZ0Rd0WpU65Ll6nP75VT    | ARGENTINA                 | 11-601-462-5744 |   9233.98 |  598730.6070 | ve the sly, unusual packages. slyly ironic foxes sleep. final dependencies need
+ Customer#000069397 | uzJwl84zx5Clc,HuaX0                     | ROMANIA                   | 29-895-915-4555 |   8855.06 |  594875.8576 | osely express accounts. dependencies was slyly among the quickly bold packages. foxes mold carefully slow inst
+ Customer#000119503 | UGx2sFT9srBiXCZ2OP9GtC48xmMj            | CHINA                     | 28-562-176-7568 |   6581.07 |  593134.2513 | onic excuses. final theodolites wake blithely ironic requests. bli
+ Customer#000140611 | fb,alZPrkT2R                            | ARGENTINA                 | 11-637-862-8495 |   5616.18 |  575177.9537 | ong the ironic theodolites are never agai
+ Customer#000036430 | JgcibALRhmYJd3GdF bp,D38Jrg             | INDONESIA                 | 19-472-710-8668 |   3106.52 |  566881.9497 | as are. blithely bold theodolites cajole.
+ Customer#000096700 | a,KH7i JIT2 UvL8By                      | ALGERIA                   | 10-304-136-8251 |   5857.36 |  564737.3233 | n requests haggle ruthlessly blithely express instructions! furiously pending dependencies unwind furiously slyly
+ Customer#000044710 | gkRBYRL,1AAYNfKc                        | RUSSIA                    | 32-812-609-2564 |   6253.41 |  560565.9123 | ackages wake carefully. final, even packages haggle. slyly regular deposits
+ Customer#000134533 | L3Lyp3wAVP6                             | CANADA                    | 13-127-698-5142 |   3241.99 |  558256.9224 | egular foxes. furiously ironic theodolites wake along the blithely final asymptotes? slyl
+ Customer#000023014 | UVBpJlCLW6J6BrSt8JO                     | VIETNAM                   | 31-218-539-9823 |   9526.24 |  550123.3436 | ng pinto beans. carefully unusual deposits across the packages sleep slyly about the f
+ Customer#000115930 | KRMFZWIsakJ3sW3OEi5                     | GERMANY                   | 17-605-868-2468 |   6170.22 |  543727.7241 | ully. unusual deposits over the carefully regular instructions boost blit
+ Customer#000080471 | iRtRIs8noVf                             | ETHIOPIA                  | 15-307-661-1153 |   9458.25 |  539176.6129 | tions. even packages engage fluff
+(20 rows)
+

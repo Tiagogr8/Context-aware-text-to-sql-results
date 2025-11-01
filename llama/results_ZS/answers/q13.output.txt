@@ -1,0 +1,3 @@
+psql:llama/results_ZS/q13.sql:12: ERROR:  aggregate functions are not allowed in GROUP BY
+LINE 10:     COUNT(o_orderkey)
+             ^

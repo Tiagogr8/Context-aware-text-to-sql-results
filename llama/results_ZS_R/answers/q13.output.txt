@@ -1,0 +1,3 @@
+psql:llama/results_ZS_R/q13.sql:21: ERROR:  column "o_orderkey" does not exist
+LINE 2:     COUNT(DISTINCT CASE WHEN o_orderkey IS NULL THEN c_custk...
+                                     ^

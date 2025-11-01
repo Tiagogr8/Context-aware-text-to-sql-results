@@ -1,0 +1,3 @@
+psql:llama/results_ZS_R/q7.sql:30: ERROR:  column "l.l_shipdate" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 2:   l.l_shipdate::date::text::date::timestamp::date::text AS l...
+          ^

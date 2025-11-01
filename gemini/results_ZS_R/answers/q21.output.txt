@@ -1,0 +1,4 @@
+psql:gemini/results_ZS_R/q21.sql:33: ERROR:  column l1.o_orderkey does not exist
+LINE 13:   ON o.o_orderkey = l1.o_orderkey
+                             ^
+HINT:  Perhaps you meant to reference the column "l1.l_orderkey".
