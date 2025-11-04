@@ -1,28 +1,19 @@
 SELECT 
-    EXTRACT(YEAR FROM o_orderdate) AS year,
-    SUM(CASE 
-        WHEN n.n_name = 'KENYA' THEN l.l_extendedprice * (1 - l.l_discount) 
-        ELSE 0 
-    END) / SUM(l.l_extendedprice * (1 - l.l_discount)) AS market_share
+    SUM(CASE WHEN EXTRACT(YEAR FROM l_shipdate) = 1995 THEN l_extendedprice * (1 - l_discount) ELSE 0 END) / 
+    (SELECT SUM(l_extendedprice * (1 - l_discount)) 
+     FROM lineitem 
+     WHERE l_shipdate >= '1995-01-01' AND l_shipdate < '1996-01-01' 
+     AND l_partkey IN (SELECT p_partkey FROM part WHERE p_type = 'ECONOMY PLATED BRASS') 
+     AND l_suppkey IN (SELECT s_suppkey FROM supplier WHERE s_nationkey IN (SELECT n_nationkey FROM nation WHERE n_name = 'KENYA'))),
+    SUM(CASE WHEN EXTRACT(YEAR FROM l_shipdate) = 1996 THEN l_extendedprice * (1 - l_discount) ELSE 0 END) / 
+    (SELECT SUM(l_extendedprice * (1 - l_discount)) 
+     FROM lineitem 
+     WHERE l_shipdate >= '1996-01-01' AND l_shipdate < '1997-01-01' 
+     AND l_partkey IN (SELECT p_partkey FROM part WHERE p_type = 'ECONOMY PLATED BRASS') 
+     AND l_suppkey IN (SELECT s_suppkey FROM supplier WHERE s_nationkey IN (SELECT n_nationkey FROM nation WHERE n_name = 'KENYA')))
 FROM 
-    orders o
-JOIN 
-    lineitem l ON o.o_orderkey = l.l_orderkey
-JOIN 
-    supplier s ON l.l_suppkey = s.s_suppkey
-JOIN 
-    nation n ON s.s_nationkey = n.n_nationkey
-JOIN 
-    region r ON n.n_regionkey = r.r_regionkey
-JOIN 
-    partsupp ps ON l.l_partkey = ps.ps_partkey AND l.l_suppkey = ps.ps_suppkey
-JOIN 
-    part p ON ps.ps_partkey = p.p_partkey
+    lineitem 
 WHERE 
-    r.r_name = 'AFRICA' 
-    AND p.p_type = 'ECONOMY PLATED BRASS'
-    AND EXTRACT(YEAR FROM o_orderdate) IN (1995, 1996)
-GROUP BY 
-    EXTRACT(YEAR FROM o_orderdate)
-ORDER BY 
-    year;
+    l_partkey IN (SELECT p_partkey FROM part WHERE p_type = 'ECONOMY PLATED BRASS') 
+    AND l_suppkey IN (SELECT s_suppkey FROM supplier WHERE s_nationkey IN (SELECT n_nationkey FROM nation WHERE n_name = 'KENYA'))
+    AND l_shipdate >= '1995-01-01' AND l_shipdate < '1997-01-01';

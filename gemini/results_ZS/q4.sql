@@ -1,6 +1,6 @@
 SELECT
   o_orderpriority,
-  COUNT(*) AS order_count
+  count(*) AS order_count
 FROM
   orders
 WHERE

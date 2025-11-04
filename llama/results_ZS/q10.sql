@@ -16,8 +16,8 @@ JOIN
     nation n ON c.c_nationkey = n.n_nationkey
 WHERE 
     l.l_returnflag = 'R' 
-    AND o.o_orderdate >= '1993-08-01' 
-    AND o.o_orderdate < '1993-09-01'
+    AND l.l_shipdate >= '1993-08-01' 
+    AND l.l_shipdate < '1993-09-01'
 GROUP BY 
     c.c_name, 
     c.c_address, 

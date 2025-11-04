@@ -1,5 +1,3 @@
--- TPC-H Database Schema 
-
 Table customer(
   c_custkey integer,
   c_name character varying,
@@ -26,7 +24,7 @@ Table lineitem(
   l_commitdate date,
   l_receiptdate date,
   l_shipinstruct character,  -- Possible values: 'DELIVER IN PERSON', 'COLLECT COD', 'NONE', 'TAKE BACK RETURN'
-  l_shipmode character,  -- Possible values: 'REG AIR', 'AIR', 'RAIL', 'SHIP', 'TRUCK', 'MAIL', 'FOB'
+  l_shipmode character,  -- Possible values: 'AIR REG', 'AIR', 'RAIL', 'SHIP', 'TRUCK', 'MAIL', 'FOB'
   l_comment character varying
 )
 

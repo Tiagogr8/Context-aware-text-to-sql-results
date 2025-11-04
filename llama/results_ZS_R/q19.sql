@@ -3,8 +3,8 @@ SELECT
 FROM 
     lineitem
 WHERE 
-    l_shipmode = 'AIR'
-    AND l_shipinstruct = 'DELIVER IN PERSON'
+    l_shipinstruct = 'DELIVER IN PERSON'
+    AND l_shipmode = 'AIR'
     AND l_partkey IN (
         SELECT 
             p_partkey
@@ -14,6 +14,12 @@ WHERE
             p_brand IN ('Brand#11', 'Brand#25', 'Brand#54')
             AND p_container IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')
             AND p_size BETWEEN 1 AND 4
-            OR p_size BETWEEN 10 AND 16
-            OR p_size BETWEEN 20 AND 29
+            AND p_partkey IN (
+                SELECT 
+                    ps_partkey
+                FROM 
+                    partsupp
+                WHERE 
+                    ps_availqty > 4
+            )
     );

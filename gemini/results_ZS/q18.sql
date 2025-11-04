@@ -1,18 +1,18 @@
 SELECT
-    c.c_name,
-    c.c_custkey,
-    o.o_orderkey,
-    o.o_orderdate,
-    o.o_totalprice,
-    SUM(l.l_quantity)
+    c_name,
+    c_custkey,
+    o_orderkey,
+    o_orderdate,
+    o_totalprice,
+    sum(l_quantity)
 FROM
-    customer AS c
+    customer
 JOIN
-    orders AS o ON c.c_custkey = o.o_custkey
+    orders ON c_custkey = o_custkey
 JOIN
-    lineitem AS l ON o.o_orderkey = l.l_orderkey
+    lineitem ON o_orderkey = l_orderkey
 WHERE
-    o.o_orderkey IN (
+    o_orderkey IN (
         SELECT
             l_orderkey
         FROM
@@ -20,15 +20,15 @@ WHERE
         GROUP BY
             l_orderkey
         HAVING
-            SUM(l_quantity) > 14
+            sum(l_quantity) > 314
     )
 GROUP BY
-    c.c_name,
-    c.c_custkey,
-    o.o_orderkey,
-    o.o_orderdate,
-    o.o_totalprice
+    c_name,
+    c_custkey,
+    o_orderkey,
+    o_orderdate,
+    o_totalprice
 ORDER BY
-    o.o_totalprice DESC,
-    o.o_orderdate
+    o_totalprice DESC,
+    o_orderdate
 LIMIT 100;

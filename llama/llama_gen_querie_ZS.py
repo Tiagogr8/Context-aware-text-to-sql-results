@@ -41,8 +41,6 @@ QUESTION:
     try:
         headers = {
             "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-            "HTTP-Referer": "https://github.com/Tiagogr8/Text-to-SQL-tests",
-            "X-Title": "SQL Generator",
             "Content-Type": "application/json",
         }
 

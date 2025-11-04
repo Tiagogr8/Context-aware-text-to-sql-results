@@ -1,3 +1,5 @@
-psql:llama/results_ZS_R/q14.sql:10: ERROR:  column "p_type" does not exist
-LINE 2:     SUM(CASE WHEN p_type LIKE 'PROMO%' THEN l_extendedprice ...
-                          ^
+        ?column?         
+-------------------------
+ 16.65118731292795406900
+(1 row)
+

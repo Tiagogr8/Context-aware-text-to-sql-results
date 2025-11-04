@@ -8,9 +8,9 @@ SELECT
   SUM(l.l_extendedprice * (1 - l.l_discount)) AS revenue_lost
 FROM 
   customer c
+  JOIN nation n ON c.c_nationkey = n.n_nationkey
   JOIN orders o ON c.c_custkey = o.o_custkey
   JOIN lineitem l ON o.o_orderkey = l.l_orderkey
-  JOIN nation n ON c.c_nationkey = n.n_nationkey
 WHERE 
   l.l_returnflag = 'R' 
   AND l.l_shipdate >= '1993-08-01' 

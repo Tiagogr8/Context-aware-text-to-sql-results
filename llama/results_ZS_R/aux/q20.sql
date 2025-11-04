@@ -19,5 +19,5 @@ AND s.s_suppkey IN (
     AND l.l_shipdate < '1995-01-01'
     AND p1.p_name LIKE 'brown%'
     AND ps1.ps_suppkey = ps.ps_suppkey
-  ) * 0.5
+  ) * 1.5
 )

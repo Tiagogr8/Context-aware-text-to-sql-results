@@ -9,7 +9,7 @@ WHERE
     AND p_container IN ('SM CASE', 'SM BOX', 'SM PACK', 'SM PKG')
     AND l_quantity >= 4 AND l_quantity <= 14
     AND p_size BETWEEN 1 AND 5
-    AND l_shipmode IN ('AIR', 'REG AIR')
+    AND l_shipmode IN ('AIR', 'AIR REG')
     AND l_shipinstruct = 'DELIVER IN PERSON'
   )
   OR (
@@ -17,7 +17,7 @@ WHERE
     AND p_container IN ('MED BAG', 'MED BOX', 'MED PKG', 'MED PACK')
     AND l_quantity >= 16 AND l_quantity <= 26
     AND p_size BETWEEN 1 AND 10
-    AND l_shipmode IN ('AIR', 'REG AIR')
+    AND l_shipmode IN ('AIR', 'AIR REG')
     AND l_shipinstruct = 'DELIVER IN PERSON'
   )
   OR (
@@ -25,6 +25,6 @@ WHERE
     AND p_container IN ('LG CASE', 'LG BOX', 'LG PACK', 'LG PKG')
     AND l_quantity >= 29 AND l_quantity <= 39
     AND p_size BETWEEN 1 AND 15
-    AND l_shipmode IN ('AIR', 'REG AIR')
+    AND l_shipmode IN ('AIR', 'AIR REG')
     AND l_shipinstruct = 'DELIVER IN PERSON'
   );

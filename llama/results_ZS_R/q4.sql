@@ -1,20 +1,14 @@
 SELECT 
-  o_orderpriority, 
-  COUNT(o_orderkey) 
+  o.o_orderpriority, 
+  COUNT(DISTINCT o.o_orderkey) 
 FROM 
-  orders 
+  orders o 
+  JOIN lineitem l ON o.o_orderkey = l.l_orderkey 
 WHERE 
-  o_orderdate >= '1997-01-01' 
-  AND o_orderdate < '1997-04-01' 
-  AND o_orderkey IN (
-    SELECT 
-      l_orderkey 
-    FROM 
-      lineitem 
-    WHERE 
-      l_receiptdate > l_commitdate
-  ) 
+  o.o_orderdate >= '1997-01-01' 
+  AND o.o_orderdate < '1997-04-01' 
+  AND l.l_receiptdate > l.l_commitdate 
 GROUP BY 
-  o_orderpriority 
+  o.o_orderpriority 
 ORDER BY 
-  o_orderpriority;
+  o.o_orderpriority;

@@ -1,0 +1,2 @@
+source ~/qwen-env/bin/activate
+psql -d tpch -f q2_ZS.sql > answers/q2.output.ZS.txt

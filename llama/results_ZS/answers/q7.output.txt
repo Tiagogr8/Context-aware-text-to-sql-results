@@ -1,3 +1,2 @@
-psql:llama/results_ZS/q7.sql:30: ERROR:  column "l.l_shipdate" must appear in the GROUP BY clause or be used in an aggregate function
-LINE 2:   l.l_shipdate::date::text::date::timestamp::date::text AS l...
-          ^
+psql:llama/results_ZS/q7.sql:30: ERROR:  invalid input syntax for type integer: "1995-05-19"
+CONTEXT:  parallel worker

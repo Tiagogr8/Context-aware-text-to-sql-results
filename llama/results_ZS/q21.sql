@@ -1,40 +1,29 @@
 SELECT 
-  s.s_name, 
-  s.s_address
+    l.l_suppkey, 
+    s.s_name, 
+    l.l_orderkey, 
+    o.o_orderdate, 
+    l.l_commitdate
 FROM 
-  supplier s
+    lineitem l
+JOIN 
+    orders o ON l.l_orderkey = o.o_orderkey
+JOIN 
+    supplier s ON l.l_suppkey = s.s_suppkey
+JOIN 
+    nation n ON s.s_nationkey = n.n_nationkey
 WHERE 
-  s.s_nationkey IN (
-    SELECT 
-      n.n_nationkey
-    FROM 
-      nation n
-    WHERE 
-      n.n_name = 'ETHIOPIA'
-  )
-  AND s.s_suppkey IN (
-    SELECT 
-      l.l_suppkey
-    FROM 
-      lineitem l
-    WHERE 
-      l.l_shipdate > l.l_commitdate
-      AND l.l_orderkey IN (
+    n.n_name = 'ETHIOPIA'
+    AND o.o_orderstatus = 'F'
+    AND l.l_receiptdate > l.l_commitdate
+    AND l.l_orderkey IN (
         SELECT 
-          o.o_orderkey
+            l1.l_orderkey
         FROM 
-          orders o
-        WHERE 
-          o.o_orderstatus = 'F'
-          AND o.o_orderkey IN (
-            SELECT 
-              l2.l_orderkey
-            FROM 
-              lineitem l2
-            GROUP BY 
-              l2.l_orderkey
-            HAVING 
-              COUNT(DISTINCT l2.l_suppkey) > 1
-          )
-      )
-  );
+            lineitem l1
+        GROUP BY 
+            l1.l_orderkey
+        HAVING 
+            COUNT(DISTINCT l1.l_suppkey) > 1
+    )
+LIMIT 100;

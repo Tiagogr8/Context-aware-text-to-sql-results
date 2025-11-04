@@ -1,7 +1,7 @@
 SELECT 
   n.n_name, 
-  EXTRACT(YEAR FROM l.l_shipdate) AS year, 
-  SUM(l.l_extendedprice * (1 - l.l_discount) - ps.ps_supplycost * l.l_quantity) AS profit
+  EXTRACT(YEAR FROM l.l_shipdate) AS l_year, 
+  SUM((l.l_extendedprice * (1 - l.l_discount)) - (ps.ps_supplycost * l.l_quantity)) AS profit
 FROM 
   lineitem l
   JOIN part p ON l.l_partkey = p.p_partkey
@@ -15,4 +15,4 @@ GROUP BY
   EXTRACT(YEAR FROM l.l_shipdate)
 ORDER BY 
   n.n_name, 
-  EXTRACT(YEAR FROM l.l_shipdate) DESC;
+  l_year DESC;

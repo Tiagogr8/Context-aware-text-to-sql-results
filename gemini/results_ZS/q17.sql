@@ -2,7 +2,7 @@ SELECT
   SUM(l_extendedprice) / 7.0 AS avg_yearly_loss
 FROM
   lineitem
-  INNER JOIN part ON p_partkey = l_partkey
+  JOIN part ON p_partkey = l_partkey
 WHERE
   p_brand = 'Brand#23'
   AND p_container = 'SM CAN'
@@ -11,8 +11,6 @@ WHERE
       0.2 * AVG(l_quantity)
     FROM
       lineitem
-      INNER JOIN part ON p_partkey = l_partkey
     WHERE
-      p_brand = 'Brand#23'
-      AND p_container = 'SM CAN'
+      l_partkey = part.p_partkey
   );

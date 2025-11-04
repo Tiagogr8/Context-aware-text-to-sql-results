@@ -21,5 +21,6 @@ WITH
 
 SELECT pv.p_partkey, pv.value
 FROM part_value pv
-WHERE pv.value > (SELECT total * 0.0001000000 FROM total_value)
+JOIN total_value tv ON 1 = 1
+WHERE pv.value > tv.total * 0.0001000000
 ORDER BY pv.value DESC;

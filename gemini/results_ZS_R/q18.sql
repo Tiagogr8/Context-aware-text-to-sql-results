@@ -16,7 +16,7 @@ GROUP BY
   o_orderdate,
   o_totalprice
 HAVING
-  SUM(l_quantity) > 14
+  SUM(l_quantity) > 314
 ORDER BY
   o_totalprice DESC,
   o_orderdate

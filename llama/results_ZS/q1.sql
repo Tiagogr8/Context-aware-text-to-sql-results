@@ -7,11 +7,11 @@ SELECT
     AVG(l_quantity) AS avg_quantity, 
     AVG(l_extendedprice) AS avg_extendedprice, 
     AVG(l_discount) AS avg_discount, 
-    COUNT(*) AS count_lineitems
+    COUNT(*) AS count_order
 FROM 
     lineitem
 WHERE 
-    l_shipdate <= (SELECT MAX(l_shipdate) FROM lineitem) - INTERVAL '84 days'
+    l_shipdate <= (SELECT MAX(l_shipdate) - INTERVAL '84 days' FROM lineitem)
 GROUP BY 
     l_returnflag, 
     l_linestatus

@@ -1,384 +1,104 @@
-          s_name           |                s_address                 
----------------------------+------------------------------------------
- Supplier#000004790        | hGIMs7QWh3p1PRq20onLaIKv
- Supplier#000004289        | WHUavCR2SCX6geDN5dDRgV
- Supplier#000001550        | WbdqrA NXZqJz4e74
- Supplier#000009259        | L1,t6WFwiHe0A1MxVpslwlipmaMau
- Supplier#000007691        | ,cdI7V0bBLssomToIjIYDMJi5X6DUULBOjc
- Supplier#000002150        | 4BB8gg2kf3OSmmFn2kglleRYJ
- Supplier#000000360        | 3avxIDL4YPrZVHie4rOiPrK8Z IJwEPqZaioHK
- Supplier#000002153        | fvGJKuSkubeTJU8wOG5M
- Supplier#000009761        | 720mn AByioLe3YiA,nrybkVUX
- Supplier#000007023        | ZWkkeSLe6XeLZe8QR 1mTZRQSp
- Supplier#000007487        | ,J6ak95pJEOgkXlwC3Iih RgRpoIE3rhucZL5M
- Supplier#000000078        | 9y3OZ2CV hGrsrQxzB7V3zTtygHVHlG3SD6yrz
- Supplier#000009344        | N1A48rWNnF63i,ePPBscDmOnHPRSJu
- Supplier#000008238        | LcAJrR6RFABlXBmXl7Kcpm
- Supplier#000003847        | fZI7MkOKUxtbb
- Supplier#000008745        | Ru150MO88CRlh1aSAWLjMOhMmiPK
- Supplier#000002592        | 2  ZDHmKO7y9Io 57xTjfk6
- Supplier#000001978        | qnOvcc36FOHCHqO0VEWCD 
- Supplier#000005718        | FspgdwMNadWuxrdVHWQR
- Supplier#000001970        | QqyXDIxLNM,fwA8qP1TLxQBA9v
- Supplier#000001850        | u8APqIJf3BcRLnul4AsNH7ha
- Supplier#000002023        | qofT29jef,Wu4PR75k5 0T8sKKyCu6
- Supplier#000003058        | Aw XxUmBnEk 
- Supplier#000004531        | rA16jlU8ajPt5BbTjk
- Supplier#000006488        | 97rW1R9HcsaS9v8dMMmIGBKCT5nk6dk
- Supplier#000003701        | RhXkYsRMx6SUaFg6RslNl2,9v7iU8S6q2W0g
- Supplier#000002233        | pyKMeYFHVDx61EeR
- Supplier#000008257        | gA20SjV3BGrB,cowC,hXTXtppX
- Supplier#000008917        | pIcGMSyzm70yjgPCi3UAV69fEm
- Supplier#000005923        | gYhnZqMGHjF4TqWV cWenjHzrgNe
- Supplier#000009981        | NX1n8lXZ0ouphhFqAPKth58qURAu0XrXxxx
- Supplier#000002186        | VKhSL06Ul4kHi4hBkK8Zm3
- Supplier#000001531        | SRV0tsqpwsgBHM,0LJRj9NWJ9SBDl4PSL
- Supplier#000005274        | CVAHtph1pESdYsEYP,fO1AF2J
- Supplier#000002822        | ,aZy8lMNPn5HP0
- Supplier#000001759        | IMUk7aHEg2sS8PyUqj4FsZS7gR8HX3Ix
- Supplier#000006885        | Z86smeUpgHKvZ,7tUWPM
- Supplier#000000372        | Bdhu5NV4VfPYBxsCmK,YnkoHIaW
- Supplier#000000339        |  ESOHA53rEW5G7Z75w5hJ
- Supplier#000003411        | ZMgZGp KDGuSXzo5j7595iv,t,l1L
- Supplier#000008531        | qTCTjmpcMVoihJcsOJYaYd2epCZsDPtsYhGSl
- Supplier#000006938        | NkZxX3c1RYqz2NPR
- Supplier#000001655        | S4coCIhdb1y,xbBL4NbuTjXaDgB6 hchz0
- Supplier#000008587        | eQOgec6prwzTBrU u901pWPT
- Supplier#000004641        | 7GGTBs43lKTN1p0lajBHHAVMYh
- Supplier#000001026        | rggfDIM7RY1sdPft 
- Supplier#000006649        | JEr VUzDpQ0TDFuk07kfkwxWEC
- Supplier#000007046        | qHGfPK7qr2l9zDGJXz
- Supplier#000007738        | vq4STgP6D50u1mC8sFr
- Supplier#000008133        | AB65mzDW8mtEj 3H2EzOjn0Kkxyy84jdkBuLLH4
- Supplier#000005439        | 4m1nHac8yhuOHkpETX1b1CVrIeepXYkV
- Supplier#000003464        | EPcvYyNhwc5lGvLXLEGepSL EWkvsQkXJ
- Supplier#000004792        | UUyeceVcL,KJaeb49OzQJwebcJA
- Supplier#000009429        | LvcH9y3y5Q2XaN,vIo
- Supplier#000003764        | 888kpdqayPqPBrSZ2aKNh9fSY,aaFPQb
- Supplier#000002147        | ZuMql8hTTEer
- Supplier#000003190        | uKuj uR2JS0HGJsmDHiCrOj6vFLxVMq
- Supplier#000003733        | 4GFmXZviw 5
- Supplier#000004706        | G bSXMhb0,QoBh
- Supplier#000004626        | hJNB,gJhi UN7HWUd5O,lO2v,sbOoM6
- Supplier#000004536        | YksS84J0LnT9,c1,cR
- Supplier#000000224        | iD7eF,uwQxxPCAFTmdXYV7N
- Supplier#000002087        | HGgxYKF0 EkGjGK
- Supplier#000002485        | k5ho3Qa8Jpuigzwu
- Supplier#000009348        | uOf8xE8iJXh0rsu
- Supplier#000002878        | jGbfUqUk32LrI
- Supplier#000006081        | t9BY2txVHYFZ XtK11jfKU
- Supplier#000007475        | 6u91e8jXtf1OZ50d53Jyzp8GFAaHF v2dP6hy3c
- Supplier#000005648        | 1l5fUKGh0DriO
- Supplier#000004352        | Yo FjewjVfTpLnoQ
- Supplier#000008773        | v14CVyAvhD3jTY9,9gbpsHF,
- Supplier#000009233        | mNdPed7sgNr7A6WqU,XXBkXKRcP3aD67WKE1b
- Supplier#000004914        | M8AqpqEtejHbxbWD22SdxKY
- Supplier#000007603        | afAJNTKJPBb rwxa6SBbkY
- Supplier#000003443        | XqVQLbwQ0uG
- Supplier#000006678        | U,iqrG67OmH
- Supplier#000003798        | F5g3WteYQiK1rxnj7x0aPv1TdSE7hO6d,LkZ96B
- Supplier#000003218        |  VGNS7OvFvDIz4h73xZ3Q OomD19gce
- Supplier#000009992        | mngsMzPxdOOQGHAPFUH
- Supplier#000009682        | 9lp047LVW3K,G1HG
- Supplier#000000193        | 0HvoBt,qEF EaKzYNCl
- Supplier#000005870        | woKRQpz8lVkG3U
- Supplier#000007803        | ud5MQ,DhfHSfxxvBJ8yr3K0yx1W,JF,nyksdo
- Supplier#000004572        | UEhXFycf0WuFzmWLyAKw8G7HLuydjiyml8O1tdvh
- Supplier#000008957        | f2v0skC2m3tQt8heKXi6aficqfV69gFjzQ7o
- Supplier#000008388        | ftgPAroHdZOm12ZLz7
- Supplier#000008411        | vtb0jArF1kmSJI0hI3JEF
- Supplier#000002964        | yJHDv1tHUT3zS8S
- Supplier#000008017        | Ok7auFnA9NTR PN6h6WcTlMFOy8A
- Supplier#000008952        | Pieung,FW1704mtb
- Supplier#000001322        | vlYKC9ekkzEycaHik
- Supplier#000005016        | Pm76cd7RQpEoslbXa9hH6Fm,9z
- Supplier#000004513        | lauKFcAEpo5xzRS2k1Enr6N
- Supplier#000003881        | vmqfjM73hPvUEaE3dR0ITCrqUDl4ccNd77Q
- Supplier#000009333        | e9JTDP8Pt7IrPBBlimjs ,
- Supplier#000001386        | iNxyxvmqmNB
- Supplier#000000751        | 20kEocUg39iam9T EzquK P7grgp,QD
- Supplier#000003433        | U,Ccsi8VrSqtkZ1BnPJkpzuViKtuIVOmirXtwu
- Supplier#000005473        | 0kypwT7K1ixxUY5LBcd2v8iEnO
- Supplier#000004555        | ,3q9,Ejcr,PN
- Supplier#000003004        | O4nA6,ODeYqsE,ekbxsHM5vc
- Supplier#000006606        | aAV0t1qLnruMZDW3MJX6vie
- Supplier#000008226        | cIoqqdt1e7scqwO9LQZ33dMlGt oHx
- Supplier#000008217        | ,XXvKzyN,KdMbMo9Uy9sEt8Fethskq
- Supplier#000004738        | BcoxAylgpwUi5
- Supplier#000001250        | uum91lnpIZa9Yv3Z IMXbf7TyYlwPYI1ApCYtx
- Supplier#000004984        | wLesh,3xCc,GrrtbzT3f0RoS4H0btIuUuR7624HP
- Supplier#000007884        | d35SIqy9frreEhCKx9xaWfTc7sqr77
- Supplier#000001727        | YI0bCXSwEXpz,SUoF iveZ
- Supplier#000008648        | 8bi56LCzClknqW6Ocs8swrzAHo58WUShU7mCH,
- Supplier#000003259        | AIEQ9swZsDtAQyho3YAjeQY3kplxytz
- Supplier#000009203        | 0k 3o4VZPgncZO9RXthKBBk
- Supplier#000000132        | sU92Jd3aQSbV
- Supplier#000002346        | tzwxlyYXGiMe1mk099ty6vn
- Supplier#000009622        | nEfWHUKQ9VsiM1JdiwRi0P8oCcR
- Supplier#000001820        | KpXwAkf9mJGAhkUcJUmWO7ggW3lI
- Supplier#000003157        | Iu8Z1STN zdULK
- Supplier#000009826        | 6kzxRewM0Ab538JKz0
- Supplier#000005052        | XgiszGZq0pdZZHYe31dLQIMe
- Supplier#000005372        | FRt4 jmWWg2SquEIXBvOMOeIMzGWbt
- Supplier#000008328        | TsfSkDtBVRLwIanb
- Supplier#000008307        | n8Co2Ch2cdyLsEjri9,Ej34w5
- Supplier#000003520        | EZawP6B5zHL9miN80qSKugkd,GPL2
- Supplier#000002551        | VXntNh4UX,Z8dJ
- Supplier#000006709        | 55mmIOYe07Rz2qebkhmo405t0Mkfck,
- Supplier#000001538        | pB38h5flEq7qC7sFqTYjhMuFvJxoRc6eY
- Supplier#000008960        | aLOLJsGDBjHCz47Jr7BYO4
- Supplier#000003238        | EZAif4tzOrTSxz,
- Supplier#000000864        | D95VTylwusz7OYesg,
- Supplier#000002554        | tFdJFJR46eF3X tG0xnfsTQ
- Supplier#000005514        | pLw yST2myHRwgbkIQztflbIJnKN
- Supplier#000000910        | 0X S 2E55,maqch
- Supplier#000004249        | dqjRKOF5zt6IBAEHkbniUdyu4kREGJGqQV9
- Supplier#000004621        | YYLVWPlth5Ve7LGwPoWC8e2Osnb8cunXrS2jW3b
- Supplier#000004801        | ijjpYDmHr,exEs1dzgra1YanXR6rYDEvxpqR
- Supplier#000004310        | cROEuV4qJQZ2X
- Supplier#000006142        | RMMW8ECkdaleNxLL9ecTfcyohxnUV1toa
- Supplier#000003872        | fk2YzCQeGM5Pt5gLFlobjSby fBApdl5qwVy2
- Supplier#000004340        | eKNZibEcZCqmfFZ7
- Supplier#000007776        | jIk7IyJ0futtV7Te
- Supplier#000007337        | nz05XGx3k7VJYEzd7Dix
- Supplier#000004985        | QoMEe4xIDWcl390k,J99nELirJbX r1fB
- Supplier#000001114        | f,UYBv5a7bpz E4v08Z0i
- Supplier#000008179        | R3uzpK70GMYBHHj,ZA
- Supplier#000005911        | 8oYfVNd8,PAGo6JyppW
- Supplier#000005088        | X4UmuzzZBdYkCQR59IFULKDPYO
- Supplier#000007307        | oqxuVj9loAZ
- Supplier#000001463        | yD5,1wUkwuvV4gWRloVVudgeUpO03et0
- Supplier#000007319        | awgO5pCDNnL3,7NviK0fpBt2bA2bGOhEh
- Supplier#000009671        | BAKZ32zS2iE0d9K7EwS
- Supplier#000005849        | rCK3WlppdkFX68a5bxonrSwKCp
- Supplier#000000487        | BvDBcJa,jQPslM
- Supplier#000009031        | FhUkpgtadZ5h7QNKpj7qCP7TOVk8enoPBH,1a46
- Supplier#000008146        | P4Lt0mMYW4ffCqv
- Supplier#000004040        | FvCZTd0FQ3cnnE,BfaR7Yg3Xvq1oYi9Ol
- Supplier#000002109        | deW6ISdcFQkhbJqqbHhk9,ADM1SCfrdsvHzSvB
- Supplier#000001780        | 5VXXjHsRuGrU HNS2xdoUCPw5LMlrJVcUOd5ED
- Supplier#000003524        | vHmrFEkW Qj2CmPHObAtd
- Supplier#000003920        | AxtQY7SssyEibvtT29eBgbhEb3Dtt2iFW
- Supplier#000005746        | QAX1j3ALe  VdS
- Supplier#000008752        | 4gV5Ggsd4tNyNAXbJ9XCmpWsAYE
- Supplier#000006476        | t9x1qudRC4
- Supplier#000001627        | 74kMjyK1cWzXBtjZK u4n5I4UP
- Supplier#000005740        |  a80WpBbwueCb6leN ja59XwqRKL
- Supplier#000006854        | Jf0FFX9tBXB sNmCycIpd
- Supplier#000004399        | NF1ju2D6rmDc
- Supplier#000005380        | owZmt SBTXg57CQ9kMPM7C
- Supplier#000002382        | otBPUYXGv LZifYiBq1XPTVKn7d
- Supplier#000008393        | wbPjQhCQGBsIpc2ZhCO69TrgsaVN8wKm5MAx
- Supplier#000009798        | VaBb,n0TkZBkB,r,UBDqK241uWZDcEb
- Supplier#000009530        | eFhnjFzyu5yN,4nMFIbxEFT5bs84 RIt3
- Supplier#000003486        | DgPB,ASUAF
- Supplier#000002595        | k5XWWSZmvUScjcqYMk6k7L
- Supplier#000009973        | 8Tza,SSAjJe
- Supplier#000005367        | K66v dDhXxYH
- Supplier#000007036        | scrn1 ctBJgudYPOx0tRc1EQWNIRB3A
- Supplier#000000749        | KxSfaofVZcFWnLsjaNszI5GTrlyAW,
- Supplier#000007843        | RcfSaB8NTKOeHQD 3xNGvUI6v7Qf,s9R0
- Supplier#000006826        | jKW6CeLZMdd2Am0mxznE,E8MDrH6o,cAW5jTivxV
- Supplier#000004041        | TB Vfbmpzu6uclxsSKY4Yw5AOpme
- Supplier#000003155        | 7PMPnR7F5AIZLTL8Uv6b3PexnNH4UncHa1dJ
- Supplier#000002084        | ,zeVVYFb6hYoWyJ4kjqm8hT5lzLlW
- Supplier#000002635        | QWtNr1h9jyotgBhsFgHlZ4QbqV
- Supplier#000007107        | 766mJ3PIqHFnZPrpcQBP u6r1 ,12P6Go
- Supplier#000007286        | gLuNuDQfFqub8AcO9V6FS,vhXTXVE
- Supplier#000001032        | EAEZHF7prT4nExxWsBPaSsOtWWytNfLdVHcIbIGA
- Supplier#000009300        | Br0nFMGdN,8duCrXx5IqL3g7RGq6aF6y
- Supplier#000008807        | ,ee56Ab,s58BQj,uYJvNiN
- Supplier#000001817        | ,te1RWRzZWqPEVE
- Supplier#000004601        | 8gjWZovIX6Ay8eMf4L RwDAaIS4J
- Supplier#000006813        | 7GFCEnduSKDJ3u
- Supplier#000004833        | Q0YyGmPz4D194q5qIpQ,d3xNwUaf5NcyPiYuPWxp
- Supplier#000003221        | GihgWugZHILgmhYn 6Im0XNnuIr
- Supplier#000004788        | rmYoEMq8npBFGz9uM
- Supplier#000005540        | 4GO58KPK4IPW0GUJ7r2fip4w5Yd9yD2uJyuAq
- Supplier#000002404        | g4LXlcHDN4z6DrdiBb0iCyLA
- Supplier#000005237        | 1auUEZrluONpxfzvuTc1Lq93uCIeucLK
- Supplier#000004643        | bYPG1 gDvsOhi5RsgY2BxL  iWc,L22pmAe
- Supplier#000000002        | 89eJ5ksX3ImxJQBvxObC,
- Supplier#000002770        | Y4O7cs1mRjv5ih 0nt RFI2qwNK
- Supplier#000005252        | YBM2D2HGMLHuQ7780cIqoDOFgeiHsps
- Supplier#000002925        | kUwc39OBibnkZa3WzgORN472f12SfOaSKX9VLU
- Supplier#000002760        | JwaOuD8jdeWmVr6SEnVbF,KpdO6
- Supplier#000009856        | OGYDi21Su3MPG
- Supplier#000001354        | Z3rwfjGIybZu399XSQMDDVMVTzcoakpx5oMfe
- Supplier#000002498        | VvpYr7G6OozCvtkIW6qdEZBi3918Vb
- Supplier#000000462        | Bg,C2gIsljPAG
- Supplier#000004032        | qX8BzAlJRPpdy2
- Supplier#000004254        | jRDRD68ax iCiF,Zz7ZVu ROeotx,i
- Supplier#000003621        | fW1IcCOBk55bSqBA
- Supplier#000008664        | mmw03ZF7KUXN 75MMVf8v8xkcTqU8wuzYu
- Supplier#000004919        | xegp3uXfPs7yf7tph30pfHarsSazkylMQv2
- Supplier#000007294        | EyOgjdxcfyTvyw4MIs3YQoREk4FJ9Vt
- Supplier#000006968        | MYqBZH8gOrzgoiL6SwwFA
- Supplier#000001580        | gqwJchO919h1NPd8IBWvNahMtg
- Supplier#000003585        | rd0xOzg2Zvki43ssTzqErfS4ZxSN6Kaleo
- Supplier#000007759        | QN KKYqvCRDNsHXjsLXX1TklSRX1t1i5dGJsmAT
- Supplier#000008835        | RM5tOTZxosLn34JtphhF6yN
- Supplier#000001737        | PYmhWHl0BbjFYyExQIJsL ,6LFobxXaOQPH
- Supplier#000003948        | XYiD 7s4dikkL8B9
- Supplier#000008142        | jChB0xH r3zey1Z,
- Supplier#000000900        | ,6RXmcRyA48c0yvZ2I
- Supplier#000005396        | Mq3JuBQD3gwDepGWYFhJ
- Supplier#000003584        | To60YGgHdAgldyJWT6rpPZcJto32jgtJ00RaI
- Supplier#000002510        | J3xtZTxnkUrG0KjE 9ru76PJGpGINiciqU31
- Supplier#000005107        | ym1,PQw1XhwsgMEBBEl6SekwvSa9xvAG,JTmKalY
- Supplier#000003747        | 3nI7yfkXomumy7LI,Udb9m6ULcOt
- Supplier#000002217        | OKKxE,bL1tm2olSlad
- Supplier#000003477        | t467MQUTaZg6oAtR9er2A5U
- Supplier#000009197        | kTmXwb9rsaQU3sJiE65
- Supplier#000008485        | UKbWnxfcaS,gZklz
- Supplier#000002732        | IAizS6WFBkDb3iSwzx1ASIJiO9EaF
- Supplier#000003650        | WM38VVLFoqc2g648vFs5tNfpF3J71ccG
- Supplier#000009840        | cneP2OiECwqb4dbfEb4kI4RdmIKbOds
- Supplier#000001230        | YTNwF6K9kaxyH8NGGrD9G
- Supplier#000004862        | Jw2TyiktrFJmTKg6EkTdR,MP13W
- Supplier#000003839        | PxJGn,bL7sv0o,SaU Uzt
- Supplier#000000434        | endL6N 85uU0NemLv4L3mSEH4LT2BF
- Supplier#000006862        | iqEIDdYOlGfOa,H9
- Supplier#000002182        | nF,UVhLaYj0B7j bhbKoaf9T
- Supplier#000009769        | Y0wv,9iqgEy7
- Supplier#000008488        | fL8BwJNM4,Q8XK,OlNp6CaRN
- Supplier#000006018        | kZ1m1FQgw02zR
- Supplier#000008466        | pGUWUwyKCxT,9Qb6
- Supplier#000006449        | 7Q3BIdoISAl8JI85e9IusWcgx,R
- Supplier#000007427        | zu85osCcQGpY54vnEUTGMIrFGRMckk,ZMC4Ao
- Supplier#000005922        | 2c,Z49DJ3Ug5K92TI
- Supplier#000004368        | oYnKb7WNX5bPZww7PQfQ
- Supplier#000006411        | JsXBFa8pcpcCE
- Supplier#000006076        | EFMuwlPO4NXmL3dLVjgl WCuJH3
- Supplier#000001847        | 0GAs3udWD8IfclOsoK22YxTDtHj
- Supplier#000002979        | l YrwL2c5fBzytrU1
- Supplier#000001668        | oD5tUdEIM5vtt92IQAn2HVQh1QP2BPVNZKNSZCj
- Supplier#000002580        | qrs2ub3wSjbzv1kc0a4k
- Supplier#000000456        | iSqve6KC7t69,jX6,HF B8Hbat11O
- Supplier#000000723        | ZFI9Pb HTy,8e,mY0mqP6ThbN
- Supplier#000001935        | lxfvnpWQ dvSWd6mSA Q1tDjspDq CP7y
- Supplier#000004478        | zkONvYIl3m8
- Supplier#000001132        | 0rxuQ74Sqy
- Supplier#000004039        | 0q,Nz9X3EzkAA9PAbCH1KxfAF
- Supplier#000007735        | Fss7BcxB,HlKksNHkmaHP2gHhH6hEWA0Mai
- Supplier#000003472        | k5ubBei49egPa4KIKsPKfMNDRE3tHiK
- Supplier#000004419        | caf77jtTtYpzllNVqZe1
- Supplier#000007432        | NgBuGog0iL5G918dWdjBVq
- Supplier#000009938        | 9yJJaUT3ZP7FgKl Yw,I0k6E28eH
- Supplier#000004979        | OIpdjUc6s Ugwwed3NTU5W vJ9VlpBFpk892P
- Supplier#000006322        | 3hJBOqhZ,YsWaVFOaZbi6U3O5gv43 q
- Supplier#000002985        | XcGrON6iJDJ4Nki
- Supplier#000009730        | 8DQwd0yTyFHZAGJ,IJ2V
- Supplier#000001593        | nyrNd0vqtRsA2mB8 N0B WGupWrAy9WK3l
- Supplier#000002347        | iZjD85P4li3H4zs6,9 ZJYnV81afGp,Yd
- Supplier#000005970        | eMgvfIHEHqVgpV3MLy0s2aODiSNbioK
- Supplier#000006979        | eHXl70pXPk8O5vrZJOG1XrMunsmu8iZPk
- Supplier#000002219        | ShNYaJlJuC
- Supplier#000003829        | RLYte,by6vV9TWHXOJ
- Supplier#000004681        | qnXYjdfzSKQYH6A8N
- Supplier#000003197        | xN7urTEvf3bME1qOMJ,CRmm
- Supplier#000008289        | fFsGY51lOsR,ckGbgfx6N2uH2IqF
- Supplier#000002384        | LvwNYrJKOqS 4VajSC7ot9CQU2izWIa
- Supplier#000005221        | ,nGY52Cz98m8rB5jeDuIiR,k6FV5bP2gH
- Supplier#000005558        | HOzfI2Zn4hXuxNjS32STTh3ZW Y
- Supplier#000001068        | ,yIRtm8YNahsojbY4zSe57Bs
- Supplier#000000516        | z5Mm65PAP4m
- Supplier#000000542        | 3yWRklEDbAvfVuidQPgOOe,x7f,4 J5lSp4v
- Supplier#000006538        | P3cQB4pXMpKnmFaV6KoSH
- Supplier#000000150        | kZajmmtJB4g,nNlaHxUvXLfZW0hVtnR35LKA
- Supplier#000008292        | paQEp sV7TNxy5BkskJTZQkV
- Supplier#000001975        | nBmdXXmMEmKhYwO2PWWjQur
- Supplier#000002275        | n95 s1Gp37NuIaefRHIuSolsOtRLPlazF8jLS
- Supplier#000000637        | V6AMGzXQ7Eqs
- Supplier#000008291        | LWwetCKCFe 56Gq4xrbGrO4C6J1qu,FiS4
- Supplier#000006415        | EWaeWc2Po68CD8u6tSwIKHT2i
- Supplier#000009007        | 39UHgveOhYkEwzdIr,hDui1EcCnlhD6iF2wO
- Supplier#000000526        | x8r7,jgpBRjq6Ns
- Supplier#000000393        | hxGMP2tFry WHEeI5cmEFVF027E
- Supplier#000009635        | UkKk7adjonMEy
- Supplier#000001792        | YbJ7B5b4NQ6UTAJEKm,vkRSI
- Supplier#000005270        | hLnk3T32Fqen43k40FJMSUOnjZZt,h6F,qNwJ43
- Supplier#000002691        | WkXzAronS1Gn
- Supplier#000008259        | f8Absnei3As,QB1LeyH,Eufh8mGO
- Supplier#000000447        | UHeJiRfImFw1r4MTrBk0vcwUx9
- Supplier#000000298        | oIB13yXjsqGSW
- Supplier#000003536        | vzCsRjennl78FjFMURrgihVJ3lie8kOJ
- Supplier#000004774        | s3Q0WRzpHmSxgHAzXFD
- Supplier#000001861        | LRsUq9GH8A5e
- Supplier#000008294        | mcspZQuGVa60ELStjl
- Supplier#000009216        | Eylm6q3TNja65ulRkiceJauwXTJgiOLm3D0Xh
- Supplier#000008239        | aKtYP9h8cUx4dfwYPrMT3IH2ZxCCERDPSyGrasMi
- Supplier#000007173        | lyc6c1b76KDdr
- Supplier#000006171        | KVdQXR2UpWcBnjc
- Supplier#000007469        | KKE9Mc1RMtPHJwcLuR7Ces4PZOqcVr
- Supplier#000000700        | K5l3kvvjnRQJJ,
- Supplier#000009773        | KvqGUov1WSL3k4Ir
- Supplier#000005784        | j1TfApFp0Heyajtm3vOjKGAvQ6J
- Supplier#000004929        | dzUOBgSae7hmM6qDXc9D9T1C8zeVt139
- Supplier#000009153        | HO1p,hzFE5FdhA0ven
- Supplier#000007505        | HrpvrWPPfiNgNUUZIkZQWsMN
- Supplier#000002326        | wTAOL2UlxXNMMWniK6djM0C mT
- Supplier#000000819        | n1YA v3IWFGmIP tZr
- Supplier#000008175        | oQI,qqyotirXMmymmKlc8Zg5x9 CGIVh3zp
- Supplier#000002353        | tJfE2O3Jwt
- Supplier#000001088        | 4GAszSHeEDCKAjzBHRsI79Tv
- Supplier#000003681        | spxhsMZtpYyLdgGS21dKMjjd3RDC9qYGj8kb
- Supplier#000007506        | swINMWWwcXRSltVzV
- Supplier#000006338        | bqDN3c3KhAcaGqkVWZWDK9zcw6hez,sVDSVf
- Supplier#000007044        | O2aV wCzz dcp
- Supplier#000004591        | fZx3auBseAnpUTPWcLD9r
- Supplier#000008385        | t2 p6wnZ6zfpc XO
- Supplier#000003326        | X5Q46rlBiujw2hBODJD4,GnKzr
- Supplier#000003493        | Vmw05lwtM79PgWdM0GX5u9i30NuLiuln
- Supplier#000006251        | INCJEsmMji2NS465MKkEyE0c7bGoZyS
- Supplier#000008111        |  aQx5,WBgSa8gxF
- Supplier#000003749        | L7rz3XecCb63AYwHpccbb2FcKXLtN s
- Supplier#000007741        | kQDmLOO5Y8R
- Supplier#000006051        | d6Q ULNKOR65Rbfx6NBKbvaKMt ,FoHCVr2
- Supplier#000007015        | GTI62eAWWMHyFrMDKT0om
- Supplier#000007377        | PI3niLhLgAqt4RiVR2dQUvuEPtq
- Supplier#000007905        | xJcTxkuamI
- Supplier#000002509        | TV cQFJuOUUaJaZGSG
- Supplier#000003110        | TX6,eAMqVun ed,piJHFzSuK6 f9jvzLiwsxJ9u 
- Supplier#000007925        | ZYse9qPjpNXWBzksL46jXHa
- Supplier#000002858        | O kR3oe7lJ5pdsFx0N0mZ3 cCVrdikn,n6
- Supplier#000002958        | XNcxw,EjCJrTOqk3
- Supplier#000001164        | 4zRI bPJf5ST2fBFZw,
- Supplier#000005735        | espkK1WZ liET7zrStHGOE4
- Supplier#000006054        | J8eAsovizNKTFchDunimO4FjM
- Supplier#000006870        | aHlcaI7YjJ9mMnVE6GvTjBqL5NcWoIjToy
- Supplier#000009887        | G1CNHwoABuHO1zBjLEKTpW7ZE3QXjU
- Supplier#000002414        | W6uBF44GHsJFPwnG,VBH8a e
- Supplier#000009967        | ulqn3UXU4UfbzeSRVoSd4k3Mc2V5t
- Supplier#000000156        | ,KXbCcjqZNjmyHzeqaL4
- Supplier#000003204        | yLDdPfluaEjCpzYhBsrr2H1O4
- Supplier#000009285        | jGb4qMXlm0Zx4uGGROSAjtnizGIdeH
- Supplier#000004673        | 2atTtfdPLk9
- Supplier#000000231        | uZfFnyAs9oFJ0No97rtQ OIV1AOYi
- Supplier#000007284        | ,BL3APKaiZbYh4lDWl7nwMrg9cqyIVuVaC
- Supplier#000005641        | 9Ow1wAWicIZar,S3crTLP8TGMlNhzUh
- Supplier#000004074        |  jYAhKOq67V6
- Supplier#000000464        | XwZyuXCVeO5wb5izvhfeX
- Supplier#000005161        | tMgynFzEyBoRhflBYqo
- Supplier#000007547        | FmcZf4dgulcZkMWETmVmH2OfSSu6AlwBg
- Supplier#000003103        | r7vLesukWuV32ZGgbffKoPiqaopP3,IG
- Supplier#000003447        | h7En559MI3o454De6Ye75
- Supplier#000005675        | p6M0KpH4uNbVyySndqYgdKBIJurQnaYMXfUlXxy
- Supplier#000002461        | 3AxwmIx6iSzuXKNRqSNcSMDS13zWQU
- Supplier#000008774        | w07Lr99j0SK4
- Supplier#000003939        | NFxpr5yBocaAYJg84CIsv8GIdKt
- Supplier#000002973        | x95AAV25GHIAYU yhQsM
- Supplier#000001237        | KskDRrC5imTdN0DCTm3BykGJWZzsNumC
- Supplier#000009205        | aOda ,dPIR352HUA6UlqjhI6GqBmqJMh, ahIgAS
- Supplier#000003036        | SifDb5Zv8PqS
- Supplier#000007850        | AynI1tvQ0MDmkvi150qu
- Supplier#000006859        | IH0G4Izp4WkPJ
- Supplier#000004088        | 5ynJA9pQAO2MsDkgGeqaP8Z3JBCUNkeg9U2bf0IH
- Supplier#000006386        | C6LXPOhlXY wNSJwC2MX VgBNtD2 uNfaKaUy
- Supplier#000001029        | 6quaw3pjSuzrj5d
- Supplier#000000063        | NlV0OQyIoPvPkw5AYuWGomX,hgqm1
- Supplier#000001304        | KlLipfqqkc8Ktz4CwZlYl
- Supplier#000001450        | nUHaPsG8kBoh6
- Supplier#000000790        | HSYD9,gCfAwpsgCLKGhf,Z4SH8GSYOc
-(380 rows)
+ l_suppkey |          s_name           | l_orderkey | o_orderdate | l_commitdate 
+-----------+---------------------------+------------+-------------+--------------
+      2461 | Supplier#000002461        |    2685031 | 1994-04-01  | 1994-06-25
+      5473 | Supplier#000005473        |    2685665 | 1993-09-06  | 1993-11-19
+      9773 | Supplier#000009773        |    2690242 | 1992-08-15  | 1992-09-30
+      1250 | Supplier#000001250        |    2691586 | 1994-05-07  | 1994-06-10
+      2485 | Supplier#000002485        |    2699778 | 1993-03-25  | 1993-05-23
+      6411 | Supplier#000006411        |    2699846 | 1994-01-18  | 1994-02-17
+      1304 | Supplier#000001304        |    2700995 | 1993-12-08  | 1994-01-09
+       447 | Supplier#000000447        |    2701539 | 1994-09-04  | 1994-10-23
+       298 | Supplier#000000298        |    2701702 | 1992-03-07  | 1992-04-09
+      6449 | Supplier#000006449        |    2702150 | 1992-09-12  | 1992-10-27
+      4041 | Supplier#000004041        |    2711460 | 1994-06-25  | 1994-08-08
+      7850 | Supplier#000007850        |    2711810 | 1993-03-14  | 1993-06-05
+      8388 | Supplier#000008388        |    2712003 | 1994-04-22  | 1994-06-24
+      1737 | Supplier#000001737        |    2712578 | 1992-06-25  | 1992-08-25
+      9153 | Supplier#000009153        |    2720965 | 1994-03-22  | 1994-06-09
+      3103 | Supplier#000003103        |    2722080 | 1994-10-24  | 1994-12-18
+      3103 | Supplier#000003103        |    2722080 | 1994-10-24  | 1994-12-12
+      1668 | Supplier#000001668        |    2722080 | 1994-10-24  | 1994-12-14
+      3920 | Supplier#000003920        |    2722370 | 1992-03-02  | 1992-04-24
+      1550 | Supplier#000001550        |    2723238 | 1993-06-04  | 1993-08-15
+      3881 | Supplier#000003881        |    2731491 | 1995-02-19  | 1995-04-11
+      1250 | Supplier#000001250        |    2732035 | 1995-01-04  | 1995-03-14
+      3058 | Supplier#000003058        |    2732869 | 1992-03-24  | 1992-06-11
+      8952 | Supplier#000008952        |    2740324 | 1992-01-03  | 1992-03-03
+      1088 | Supplier#000001088        |    2740992 | 1993-01-15  | 1993-02-26
+      4788 | Supplier#000004788        |    2742690 | 1992-04-12  | 1992-07-01
+      2592 | Supplier#000002592        |    2743044 | 1993-11-27  | 1994-01-21
+      6171 | Supplier#000006171        |    2743585 | 1992-09-16  | 1992-10-22
+      9798 | Supplier#000009798        |    2750944 | 1993-01-30  | 1993-04-06
+      2326 | Supplier#000002326        |    2752769 | 1993-07-07  | 1993-09-05
+      4340 | Supplier#000004340        |    2752774 | 1994-12-08  | 1995-01-16
+      3218 | Supplier#000003218        |    2765030 | 1993-05-13  | 1993-07-31
+       462 | Supplier#000000462        |    2765538 | 1992-01-22  | 1992-04-13
+      4738 | Supplier#000004738        |    2765957 | 1993-03-28  | 1993-05-01
+      3486 | Supplier#000003486        |    2765957 | 1993-03-28  | 1993-06-26
+      7432 | Supplier#000007432        |    2766208 | 1993-06-08  | 1993-07-09
+      2347 | Supplier#000002347        |    2766402 | 1992-03-31  | 1992-06-14
+      2275 | Supplier#000002275        |    2766816 | 1994-04-10  | 1994-06-17
+      2822 | Supplier#000002822        |    2774656 | 1992-12-06  | 1993-02-27
+      7603 | Supplier#000007603        |    2775558 | 1994-05-10  | 1994-08-01
+      7884 | Supplier#000007884        |    2777220 | 1992-03-21  | 1992-05-28
+      6979 | Supplier#000006979        |    2785029 | 1992-02-05  | 1992-03-08
+      1114 | Supplier#000001114        |    2785063 | 1994-07-19  | 1994-10-05
+      8217 | Supplier#000008217        |    2785152 | 1992-10-15  | 1992-11-20
+      3493 | Supplier#000003493        |    2785316 | 1993-03-12  | 1993-05-01
+      7547 | Supplier#000007547        |    2785379 | 1992-11-26  | 1993-02-15
+      6649 | Supplier#000006649        |    2786726 | 1993-09-17  | 1993-11-30
+      2326 | Supplier#000002326        |    2787813 | 1993-03-15  | 1993-05-07
+      6538 | Supplier#000006538        |    2796768 | 1994-01-01  | 1994-02-01
+      2925 | Supplier#000002925        |    2797121 | 1992-09-30  | 1992-11-18
+      2084 | Supplier#000002084        |    2797766 | 1994-06-17  | 1994-08-22
+      8835 | Supplier#000008835        |    2805217 | 1993-08-09  | 1993-09-30
+      2461 | Supplier#000002461        |    2806208 | 1994-06-04  | 1994-07-06
+       447 | Supplier#000000447        |    2806436 | 1992-04-16  | 1992-05-19
+      3110 | Supplier#000003110        |    2677413 | 1992-04-19  | 1992-05-30
+      4979 | Supplier#000004979        |    2677667 | 1994-08-03  | 1994-09-30
+      5746 | Supplier#000005746        |    2677956 | 1992-04-04  | 1992-06-07
+      2182 | Supplier#000002182        |    2678919 | 1992-10-29  | 1992-11-30
+      6449 | Supplier#000006449        |    2680162 | 1993-06-16  | 1993-07-17
+      2964 | Supplier#000002964        |    2680579 | 1994-07-07  | 1994-09-16
+       339 | Supplier#000000339        |    2681728 | 1992-04-27  | 1992-06-04
+      3829 | Supplier#000003829        |    2682208 | 1993-07-02  | 1993-08-08
+      1861 | Supplier#000001861        |    2693122 | 1993-10-13  | 1993-11-23
+      4914 | Supplier#000004914        |    2695751 | 1994-07-29  | 1994-09-13
+       231 | Supplier#000000231        |    2696033 | 1992-08-31  | 1992-09-30
+      2973 | Supplier#000002973        |    2696132 | 1994-06-27  | 1994-08-23
+      3829 | Supplier#000003829        |    2704358 | 1992-11-08  | 1993-01-11
+      8485 | Supplier#000008485        |    2704992 | 1993-07-03  | 1993-08-23
+      8488 | Supplier#000008488        |    2706021 | 1994-09-04  | 1994-10-28
+      4862 | Supplier#000004862        |    2706272 | 1994-11-03  | 1994-12-03
+      3733 | Supplier#000003733        |    2713409 | 1994-11-29  | 1995-02-03
+      1847 | Supplier#000001847        |    2698084 | 1994-11-27  | 1995-02-02
+      8774 | Supplier#000008774        |    2807463 | 1992-04-01  | 1992-05-16
+      8294 | Supplier#000008294        |    2816547 | 1992-06-06  | 1992-08-01
+      5380 | Supplier#000005380        |    2817088 | 1993-08-04  | 1993-10-21
+      8531 | Supplier#000008531        |    2817575 | 1994-05-14  | 1994-07-29
+      8328 | Supplier#000008328        |    2817986 | 1994-12-07  | 1995-01-27
+      4555 | Supplier#000004555        |    2818245 | 1994-10-04  | 1994-11-27
+      3524 | Supplier#000003524        |    2818308 | 1993-05-12  | 1993-07-25
+      1817 | Supplier#000001817        |    2827266 | 1994-08-14  | 1994-10-28
+      4681 | Supplier#000004681        |    2827398 | 1995-01-09  | 1995-03-17
+      2326 | Supplier#000002326        |    2828643 | 1993-11-04  | 1993-12-13
+      2554 | Supplier#000002554        |    2837313 | 1995-02-14  | 1995-04-05
+      8017 | Supplier#000008017        |    2838278 | 1994-06-09  | 1994-09-02
+      2404 | Supplier#000002404        |    2846085 | 1993-06-17  | 1993-08-23
+      6251 | Supplier#000006251        |    2846087 | 1993-05-28  | 1993-08-01
+      4531 | Supplier#000004531        |    2846372 | 1993-06-29  | 1993-09-25
+      3872 | Supplier#000003872        |    2846406 | 1994-06-02  | 1994-07-09
+       393 | Supplier#000000393        |    2846406 | 1994-06-02  | 1994-07-02
+      9216 | Supplier#000009216        |    2699047 | 1995-01-20  | 1995-03-22
+      8466 | Supplier#000008466        |    2699233 | 1993-04-07  | 1993-07-06
+      7036 | Supplier#000007036        |    2715943 | 1994-10-29  | 1994-12-15
+      5380 | Supplier#000005380        |    2716295 | 1993-03-05  | 1993-05-02
+      4041 | Supplier#000004041        |    2724133 | 1995-01-09  | 1995-03-30
+       447 | Supplier#000000447        |    2724519 | 1993-10-19  | 1993-12-08
+      4706 | Supplier#000004706        |    2725217 | 1992-04-15  | 1992-05-18
+      2233 | Supplier#000002233        |    2725923 | 1992-08-18  | 1992-09-22
+      3433 | Supplier#000003433        |    2733794 | 1995-01-27  | 1995-03-30
+      4419 | Supplier#000004419        |    2734115 | 1992-12-12  | 1993-01-30
+      5922 | Supplier#000005922        |    2735520 | 1994-08-20  | 1994-10-23
+(100 rows)
 

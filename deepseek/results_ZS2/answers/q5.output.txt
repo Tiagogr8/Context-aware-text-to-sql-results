@@ -1,0 +1,9 @@
+          nation           | revenue_volume 
+---------------------------+----------------
+ RUSSIA                    |  57133463.8174
+ FRANCE                    |  52578551.0537
+ UNITED KINGDOM            |  51997671.8607
+ ROMANIA                   |  51383021.1615
+ GERMANY                   |  49989615.5411
+(5 rows)
+

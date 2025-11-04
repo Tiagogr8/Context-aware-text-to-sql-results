@@ -1,66 +1,40 @@
 SELECT 
-  s.s_name, 
-  s.s_address
+    l.l_suppkey, 
+    s.s_name, 
+    l.l_orderkey, 
+    o.o_orderdate, 
+    o.o_totalprice
 FROM 
-  supplier s
+    lineitem l
+JOIN 
+    orders o ON l.l_orderkey = o.o_orderkey
+JOIN 
+    supplier s ON l.l_suppkey = s.s_suppkey
+JOIN 
+    nation n ON s.s_nationkey = n.n_nationkey
 WHERE 
-  s.s_nationkey IN (
-    SELECT 
-      n.n_nationkey
-    FROM 
-      nation n
-    WHERE 
-      n.n_name = 'ETHIOPIA'
-  )
-  AND s.s_suppkey IN (
-    SELECT 
-      l.l_suppkey
-    FROM 
-      lineitem l
-    WHERE 
-      l.l_shipdate > l.l_commitdate
-      AND l.l_orderkey IN (
+    n.n_name = 'ETHIOPIA'
+    AND o.o_orderstatus = 'F'
+    AND l.l_commitdate > l.l_receiptdate
+    AND l.l_suppkey IN (
         SELECT 
-          o.o_orderkey
+            l2.l_suppkey
         FROM 
-          orders o
+            lineitem l2
+        JOIN 
+            orders o2 ON l2.l_orderkey = o2.o_orderkey
         WHERE 
-          o.o_orderstatus = 'F'
-      )
-      AND l.l_orderkey IN (
-        SELECT 
-          l2.l_orderkey
-        FROM 
-          lineitem l2
-        GROUP BY 
-          l2.l_orderkey
-        HAVING 
-          COUNT(DISTINCT l2.l_suppkey) > 1
-      )
-  )
-  AND s.s_suppkey NOT IN (
-    SELECT 
-      l.l_suppkey
-    FROM 
-      lineitem l
-    WHERE 
-      l.l_shipdate <= l.l_commitdate
-      AND l.l_orderkey IN (
-        SELECT 
-          o.o_orderkey
-        FROM 
-          orders o
-        WHERE 
-          o.o_orderstatus = 'F'
-      )
-      AND l.l_orderkey IN (
-        SELECT 
-          l2.l_orderkey
-        FROM 
-          lineitem l2
-        GROUP BY 
-          l2.l_orderkey
-        HAVING 
-          COUNT(DISTINCT l2.l_suppkey) > 1
-      )
-  );
+            o2.o_orderstatus = 'F'
+            AND l2.l_commitdate > l2.l_receiptdate
+            AND l2.l_orderkey IN (
+                SELECT 
+                    l3.l_orderkey
+                FROM 
+                    lineitem l3
+                GROUP BY 
+                    l3.l_orderkey
+                HAVING 
+                    COUNT(DISTINCT l3.l_suppkey) > 1
+            )
+    )
+LIMIT 100;

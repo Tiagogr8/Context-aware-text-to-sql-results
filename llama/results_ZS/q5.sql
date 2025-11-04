@@ -6,7 +6,8 @@ FROM
   JOIN orders o ON l.l_orderkey = o.o_orderkey
   JOIN customer c ON o.o_custkey = c.c_custkey
   JOIN nation n1 ON c.c_nationkey = n1.n_nationkey
-  JOIN supplier s ON l.l_suppkey = s.s_suppkey
+  JOIN partsupp ps ON l.l_partkey = ps.ps_partkey AND l.l_suppkey = ps.ps_suppkey
+  JOIN supplier s ON ps.ps_suppkey = s.s_suppkey
   JOIN nation n2 ON s.s_nationkey = n2.n_nationkey
   JOIN region r ON n1.n_regionkey = r.r_regionkey
 WHERE 

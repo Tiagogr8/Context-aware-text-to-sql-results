@@ -4,13 +4,11 @@ SELECT
   o_orderdate,
   o_shippriority
 FROM
-  customer,
-  orders,
-  lineitem
+  customer
+  JOIN orders ON c_custkey = o_custkey
+  JOIN lineitem ON l_orderkey = o_orderkey
 WHERE
   c_mktsegment = 'FURNITURE'
-  AND c_custkey = o_custkey
-  AND l_orderkey = o_orderkey
   AND o_orderdate < '1995-03-27'
   AND l_shipdate > '1995-03-27'
 GROUP BY

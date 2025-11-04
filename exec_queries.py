@@ -5,9 +5,9 @@ import csv
 
 DB_NAME = "tpch"
 # Escolher a pasta onde estão as queries
-QUERY_DIR = "./llama/results_ZS_R/"
+QUERY_DIR = "./chatgpt/results_ZS_R/queries"
 # Escolher a pasta onde quer guardar os outputs
-OUTPUT_DIR = "./llama/results_ZS_R/answers"
+OUTPUT_DIR = "./chatgpt/results_ZS_R/answers"
 TIMING_CSV = os.path.join(OUTPUT_DIR, "query_execution_times.csv")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)

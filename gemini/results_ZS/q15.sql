@@ -1,6 +1,6 @@
-WITH revenue AS (
+WITH revenue_per_supplier AS (
   SELECT
-    l_suppkey AS supplier_no,
+    l_suppkey,
     SUM(l_extendedprice * (1 - l_discount)) AS total_revenue
   FROM
     lineitem
@@ -19,14 +19,14 @@ SELECT
 FROM
   supplier AS s
 JOIN
-  revenue AS r
-  ON s.s_suppkey = r.supplier_no
+  revenue_per_supplier AS r
+  ON s.s_suppkey = r.l_suppkey
 WHERE
   r.total_revenue = (
     SELECT
       MAX(total_revenue)
     FROM
-      revenue
+      revenue_per_supplier
   )
 ORDER BY
   s.s_suppkey;

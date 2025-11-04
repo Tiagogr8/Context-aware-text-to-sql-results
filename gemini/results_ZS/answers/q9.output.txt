@@ -1,4 +1,4 @@
-          nation           | o_year |  sum_profit   
+          n_name           | o_year |    profit     
 ---------------------------+--------+---------------
  ALGERIA                   |   1998 | 29669390.6189
  ALGERIA                   |   1997 | 49565756.2151

@@ -7,10 +7,10 @@ FROM
     orders
 WHERE 
     l_orderkey = o_orderkey 
-    AND l_shipmode IN ('FOB', 'MAIL')
-    AND l_receiptdate > l_commitdate
-    AND l_shipdate < l_commitdate
-    AND l_receiptdate >= '1996-01-01'
+    AND l_shipmode IN ('FOB', 'MAIL') 
+    AND l_receiptdate > l_commitdate 
+    AND l_shipdate < l_commitdate 
+    AND l_receiptdate >= '1996-01-01' 
     AND l_receiptdate < '1997-01-01'
 GROUP BY 
-    l_shipmode;
+    l_shipmode

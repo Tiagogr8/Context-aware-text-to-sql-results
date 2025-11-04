@@ -1,0 +1,9 @@
+ o_orderpriority | count 
+-----------------+-------
+ 1-URGENT        | 28135
+ 2-HIGH          | 28245
+ 3-MEDIUM        | 28131
+ 4-NOT SPECIFIED | 28390
+ 5-LOW           | 27922
+(5 rows)
+

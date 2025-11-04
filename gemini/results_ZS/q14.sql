@@ -1,14 +1,15 @@
 SELECT
-  100.00 * SUM(CASE
-    WHEN p.p_type LIKE 'PROMO%'
-    THEN l.l_extendedprice * (1 - l.l_discount)
-    ELSE 0
-  END) / SUM(l.l_extendedprice * (1 - l.l_discount)) AS promo_revenue
+  100.00 * SUM(
+    CASE
+      WHEN p_type LIKE 'PROMO%'
+      THEN l_extendedprice * (1 - l_discount)
+      ELSE 0
+    END
+  ) / SUM(l_extendedprice * (1 - l_discount)) AS promo_revenue
 FROM
-  lineitem AS l
+  lineitem
 JOIN
-  part AS p
-  ON l.l_partkey = p.p_partkey
+  part ON l_partkey = p_partkey
 WHERE
-  l.l_shipdate >= DATE '1996-04-01'
-  AND l.l_shipdate < DATE '1996-04-01' + INTERVAL '1 month';
+  l_shipdate >= DATE '1996-04-01'
+  AND l_shipdate < DATE '1996-04-01' + INTERVAL '1 month';

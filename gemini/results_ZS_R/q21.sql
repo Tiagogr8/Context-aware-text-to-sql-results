@@ -1,33 +1,37 @@
 SELECT
-  s.s_name
+  s_name,
+  count(*) AS numwait
 FROM
-  supplier AS s
-JOIN
-  nation AS n
-  ON s.s_nationkey = n.n_nationkey
-JOIN
-  lineitem AS l1
-  ON s.s_suppkey = l1.l_suppkey
-JOIN
-  orders AS o
-  ON o.o_orderkey = l1.o_orderkey
+  supplier
+  JOIN lineitem l1 ON s_suppkey = l1.l_suppkey
+  JOIN orders ON o_orderkey = l1.l_orderkey
+  JOIN nation ON s_nationkey = n_nationkey
 WHERE
-  n.n_name = 'ETHIOPIA' AND o.o_orderstatus = 'F' AND l1.l_receiptdate > l1.l_commitdate AND EXISTS (
+  o_orderstatus = 'F'
+  AND l1.l_receiptdate > l1.l_commitdate
+  AND n_name = 'ETHIOPIA'
+  AND EXISTS (
     SELECT
-      1
+      *
     FROM
-      lineitem AS l2
+      lineitem l2
     WHERE
-      l2.l_orderkey = l1.l_orderkey AND l2.l_suppkey <> l1.l_suppkey
-  ) AND NOT EXISTS (
+      l2.l_orderkey = l1.l_orderkey
+      AND l2.l_suppkey <> l1.l_suppkey
+  )
+  AND NOT EXISTS (
     SELECT
-      1
+      *
     FROM
-      lineitem AS l3
+      lineitem l3
     WHERE
-      l3.l_orderkey = l1.l_orderkey AND l3.l_suppkey <> l1.l_suppkey AND l3.l_receiptdate > l3.l_commitdate
+      l3.l_orderkey = l1.l_orderkey
+      AND l3.l_suppkey <> l1.l_suppkey
+      AND l3.l_receiptdate > l3.l_commitdate
   )
 GROUP BY
-  s.s_name
+  s_name
 ORDER BY
-  s.s_name;
+  numwait DESC,
+  s_name
+LIMIT 100;

@@ -11,7 +11,7 @@ SELECT
 FROM 
     lineitem
 WHERE 
-    l_shipdate <= DATE '1998-12-01' - INTERVAL '84 days'
+    l_shipdate <= (SELECT MAX(l_shipdate) FROM lineitem) - INTERVAL '84 days'
 GROUP BY 
     l_returnflag, 
     l_linestatus

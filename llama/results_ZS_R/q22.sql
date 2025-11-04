@@ -5,24 +5,46 @@ WITH
     FROM customer
   ),
   
-  -- Filter customers with country codes in the specified range and greater than average account balance
-  filtered_customers AS (
-    SELECT c.c_custkey, c.c_name, c.c_phone, c.c_acctbal
-    FROM customer c
-    WHERE LEFT(c.c_phone, 2) IN ('30', '31', '28', '21', '26', '33', '10')
-    AND c.c_acctbal > (SELECT avg_acctbal FROM avg_balance)
+  -- Filter customers with country codes and no orders for 7 years
+  target_customers AS (
+    SELECT 
+      c.c_custkey,
+      c.c_name,
+      c.c_phone,
+      c.c_acctbal,
+      o.o_orderdate
+    FROM 
+      customer c
+    LEFT JOIN 
+      orders o ON c.c_custkey = o.o_custkey
+    WHERE 
+      (c.c_phone LIKE '30%' OR 
+       c.c_phone LIKE '31%' OR 
+       c.c_phone LIKE '28%' OR 
+       c.c_phone LIKE '21%' OR 
+       c.c_phone LIKE '26%' OR 
+       c.c_phone LIKE '33%' OR 
+       c.c_phone LIKE '10%')
+      AND (o.o_orderdate IS NULL OR o.o_orderdate < (CURRENT_DATE - INTERVAL '7 year'))
   ),
   
-  -- Find customers who have not placed orders for 7 years
-  inactive_customers AS (
-    SELECT fc.c_custkey, fc.c_name, fc.c_phone, fc.c_acctbal
-    FROM filtered_customers fc
-    LEFT JOIN orders o ON fc.c_custkey = o.o_custkey
-    WHERE o.o_orderkey IS NULL OR o.o_orderdate < (CURRENT_DATE - INTERVAL '7 year')
+  -- Filter customers with above average account balance
+  potential_customers AS (
+    SELECT 
+      tc.c_custkey,
+      tc.c_name,
+      tc.c_phone,
+      tc.c_acctbal
+    FROM 
+      target_customers tc
+    CROSS JOIN 
+      avg_balance ab
+    WHERE 
+      tc.c_acctbal > ab.avg_acctbal
   )
 
--- Count the number of inactive customers and calculate the magnitude of their account balance
 SELECT 
-  COUNT(ic.c_custkey) AS num_customers,
-  SUM(ic.c_acctbal) AS total_balance
-FROM inactive_customers ic;
+  COUNT(pc.c_custkey) AS customer_count,
+  SUM(pc.c_acctbal) AS total_balance
+FROM 
+  potential_customers pc;

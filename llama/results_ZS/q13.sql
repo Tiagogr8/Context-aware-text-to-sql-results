@@ -1,12 +1,21 @@
 SELECT 
-    COUNT(o_orderkey) AS num_orders, 
-    COUNT(DISTINCT c_custkey) AS num_customers
+    num_orders,
+    COUNT(*) AS num_customers
 FROM 
-    customer 
-LEFT JOIN 
-    orders ON c_custkey = o_custkey 
-    AND o_comment NOT LIKE '%unusual%accounts%'
+(
+    SELECT 
+        c.c_custkey,
+        COUNT(o.o_orderkey) AS num_orders
+    FROM 
+        customer c
+    LEFT JOIN 
+        orders o ON c.c_custkey = o.o_custkey
+    WHERE 
+        o.o_comment NOT LIKE '%unusual accounts%' OR o.o_comment IS NULL
+    GROUP BY 
+        c.c_custkey
+) AS subquery
 GROUP BY 
-    COUNT(o_orderkey)
+    num_orders
 ORDER BY 
     num_orders;
