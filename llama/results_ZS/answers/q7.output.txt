@@ -1,2 +1,0 @@
-psql:llama/results_ZS/q7.sql:30: ERROR:  invalid input syntax for type integer: "1995-05-19"
-CONTEXT:  parallel worker

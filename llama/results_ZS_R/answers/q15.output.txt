@@ -1,3 +1,0 @@
-psql:llama/results_ZS_R/q15.sql:18: ERROR:  column "s.s_suppkey" must appear in the GROUP BY clause or be used in an aggregate function
-LINE 18: ORDER BY s.s_suppkey;
-                  ^
